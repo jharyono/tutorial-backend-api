@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://tutorials-api.herokuapp.com",
+  origin: "https://tutorial-list.herokuapp.com",
 };
 
 app.use(cors(corsOptions));
